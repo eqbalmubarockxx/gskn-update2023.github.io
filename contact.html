@@ -7,7 +7,7 @@
   <!-- Load Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
-<body>
+<body style="background-image: url('assets/background.jpg');">
     <!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <img
@@ -45,20 +45,25 @@
     </div>
   </nav>
 
-<style>
-		/* CSS untuk mengatur posisi elemen */
-		.container {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			height: 100vh;
-		}
-	</style>
-
-  <div class="container">
+  <style>
+    /* CSS untuk mengatur posisi elemen */
+    .container-instagram {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+  
+    .container-instagram .btn {
+      font-size: 2em;
+    }
+  </style>
+  
+  <div class="container-instagram">
     <!-- Instagram logo as button -->
     <a href="https://www.instagram.com/_gskn/" class="btn btn-primary"><i class="fab fa-instagram"></i> Instagram</a>
-</div>
+  </div>
+  
 
 <!-- Load Font Awesome Icons -->
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
